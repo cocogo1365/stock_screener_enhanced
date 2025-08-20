@@ -1,0 +1,17 @@
+{
+  "finmind": {
+    "api_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJkYXRlIjoiMjAyNS0wOC0xNyAxOTozNDo0MCIsInVzZXJfaWQiOiJ0MDg3ODA1NzExIiwiaXAiOiI5NC4xNTYuMTQ5Ljk0In0.7ukV7nG5f0oiQjAkmH0bye3NDqGi-_5DyI3nZfHto5g",
+    "base_url": "https://api.finmindtrade.com/api/v4/data",
+    "timeout": 30,
+    "retry": 3
+  },
+  "twse": {
+    "base_url": "https://openapi.twse.com.tw/v1",
+    "timeout": 10
+  },
+  "settings": {
+    "cache_duration": 300,
+    "request_delay": 0.5,
+    "max_concurrent_requests": 5
+  }
+}

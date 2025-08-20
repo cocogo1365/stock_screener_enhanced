@@ -1,0 +1,92 @@
+{
+  "screening_parameters": {
+    "min_conditions_to_pass": 5,
+    "market_twse": true,
+    "market_otc": true,
+    "market_emerging": false,
+    "volume_surge1": {
+      "enabled": true,
+      "value": 1.5
+    },
+    "volume_surge2": {
+      "enabled": false,
+      "value": 3.0
+    },
+    "volume_surge3": {
+      "enabled": false,
+      "value": 5.0
+    },
+    "min_volume": {
+      "enabled": true,
+      "value": 1000
+    },
+    "daily_kd_golden": false,
+    "monthly_kd_golden": false,
+    "above_ma20": false,
+    "break_60d_high": false,
+    "break_volume_multiplier": 2.0,
+    "trust_buy": {
+      "enabled": false,
+      "value": 500
+    },
+    "trust_pct": {
+      "enabled": false,
+      "value": 3.0
+    },
+    "trust_5d": {
+      "enabled": false,
+      "value": 1000
+    },
+    "trust_holding": {
+      "enabled": false,
+      "value": 15.0
+    },
+    "inst_5d": {
+      "enabled": false,
+      "value": 100
+    },
+    "margin_ratio": {
+      "enabled": false,
+      "value": 5.0
+    },
+    "margin_5d": {
+      "enabled": false,
+      "value": 10.0
+    },
+    "eps": {
+      "enabled": false,
+      "value": 0
+    },
+    "roe": {
+      "enabled": false,
+      "value": 10.0
+    },
+    "yield": {
+      "enabled": false,
+      "value": 3.0
+    },
+    "daily_change": {
+      "enabled": false,
+      "value": 7.0
+    },
+    "change_5d": {
+      "enabled": false,
+      "value": 20.0
+    },
+    "exclude_warning": false,
+    "exclude_disposition": false,
+    "exclude_limit_up": {
+      "enabled": false,
+      "days": 3
+    }
+  },
+  "display_settings": {
+    "max_results": 30,
+    "test_mode": false,
+    "verbose_log": true
+  },
+  "system": {
+    "version": "2.0",
+    "last_updated": "2025-08-19"
+  }
+}
